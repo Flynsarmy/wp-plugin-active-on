@@ -1,0 +1,22 @@
+{
+    "name": "qps/cctv",
+    "description": "Handles all CCTV related things on myPolice. Requires qps-drivers plugin.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "flynsarmy",
+            "email": "flynsarmy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flyn\\FPAO\\": "FPAO"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "php-stubs/wordpress-stubs": "^5.1",
+        "szepeviktor/phpstan-wordpress": "^0.5.0"
+    }
+}
