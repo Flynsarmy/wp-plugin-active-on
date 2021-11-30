@@ -4,5 +4,9 @@
 
     <rule ref="PSR12"/>
 
+    <file>flyn-plugins-active-on.php</file>
     <file>FPAO</file>
+
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>*\.(?!php$)</exclude-pattern>
 </ruleset>

@@ -11,7 +11,7 @@ class FPAO
 
     public array $plugin_sites = [];
     public array $theme_sites = [];
-    
+
     /**
      * Retrieve a list of plugins and the sites they're enabled on
      *
