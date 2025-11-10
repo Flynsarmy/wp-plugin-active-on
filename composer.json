@@ -1,5 +1,5 @@
 {
-    "name": "flynsarmy/wp-plugins-active-on-plugin",
+    "name": "flynsarmy/plugins-active-on",
     "description": "Lists sites a plugin/theme is active on in the network plugin/theme lists",
     "type": "wordpress-plugin",
     "license": "MIT",
